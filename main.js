@@ -7,8 +7,8 @@
 
 
 let type= new Typed('#changing-text',{
-    strings : ['Web-Designer','Web-Developer'],
-    typeSpeed :50,
-    backSpeed :60,
+    strings : ['Web-Designer','Front-End Developer','Student'],
+    typeSpeed :80,
+    backSpeed :80,
     loop : true
 })

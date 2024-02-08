@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #1f242d;
@@ -89,7 +90,7 @@ p{
 
 }
 
-i{
+.info i{
     position: relative;
     border: 2px solid #0ef;
     padding: 10px;
@@ -101,7 +102,7 @@ i{
     animation-delay:calc(.3s * var(--i));
     opacity: 0;
 }
-i:hover{
+.info i:hover{
     box-shadow: 0 0 28px #0ef;
 }
 button{
@@ -113,7 +114,7 @@ button{
     cursor: pointer;
     font-weight: 600;
     transition: 0.3s;
-    box-shadow: 0 0 15px;
+    box-shadow: 0 0 15px rgb(3, 159, 170);
     animation: fromBottom 1s ease forwards;
     opacity: 0;
     animation-duration: 1.6s;
@@ -129,14 +130,15 @@ button:hover{
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 2rem;
+   gap: 5rem;
    padding: 25px 10%;
    margin: 20px 0; 
    background-color: #323946;
    height: 100vh;
 }
 .about-img img{
-    width: 40vw;
+    width: 35vw;
+    height: 90vh;
 }
 .heading{
     text-align: left;
@@ -148,4 +150,47 @@ button:hover{
 .about-content p{
     line-height: 27px;
     margin: 2rem 0 2rem;
+}
+/* services */
+.services{
+    padding: 25px 10%;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.services h2{
+    text-align: center;
+}
+
+.service-container .service-box{
+    flex: 1 1 20rem;
+    background-color: #323946;
+    margin-top: 30px;
+    padding: 2rem 1rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    transition: 0.5s ease;
+    border: 0.1rem solid #1f242d;
+}
+
+.service-box i{
+    font-size: 3rem;
+    color: #0ef;
+}
+.service-box h3{
+    font-size: 1.2rem;
+}
+.service-box p{
+    margin: 1rem 0 1rem;
+}
+.service-container .service-box:hover{
+    border-color: #0ef;
+    transform: scale(1);
 }
