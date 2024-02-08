@@ -54,7 +54,7 @@ body{
     margin: 10px 0;
     letter-spacing: 1px;
 }
-.info h1{
+h1{
     font-size: 75px;
     letter-spacing: 700;
     letter-spacing: 1px;
@@ -62,7 +62,7 @@ body{
     opacity: 0;
     animation-delay: 1s;
 }
-.info h3 span{
+h3 span{
     color: #0ef;
 }
 .part-1{
@@ -193,4 +193,29 @@ button:hover{
 .service-container .service-box:hover{
     border-color: #0ef;
     transform: scale(1);
+}
+/* portfolio */
+
+.portfolio{
+    background-color: #323946;
+    padding: 25px 10%; 
+    margin: 20px 0px;
+    height: 100vh;
+} 
+.fortfolio-container{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    align-items: center ;
+    gap: 2.5rem;
+}
+.fortfolio-container .portfolio-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #1f242d;
+    overflow: hidden;
+    display: flex;
+}
+.portfolio-box img{
+    width: 100%;
+    transition: 0.5s ease;
 }
