@@ -6,7 +6,11 @@
     <title>Portfolio_website</title>
     <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="animation.css">
+<script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header class="header">
@@ -17,7 +21,7 @@
            <a href="#services" style="--i: 5">Service</a>
            <a href="#portfolio" style="--i: 6">Portfolio</a>
            <a href="#skills" style="--i: 3">Skills</a>
-           <a href="#" style="--i:4">Contact</a>
+           <a href="#contact" style="--i:4">Contact</a>
         </nav>
     </header>
 <!-- =================hero section================ -->
@@ -59,7 +63,7 @@
                 <!-- icon -->
                 <i class="uil uil-brackets-curly"></i>
                 <h3>Web Designs</h3>
-                <p>Lorem ipsum doagni.</p>
+                <p>I'm a web designer.</p>
                 <button>Read More</button>
             </div>
 
@@ -67,7 +71,7 @@
                 <!-- icon -->
                 <i class="uil uil-palette"></i>
                 <h3>Bug Fixing</h3>
-                <p>Lorem ipsum dolor sit s rem! A, magni? Nam mollitia vitae magni.</p>
+                <p>I fix web site bugs.</p>
                 <button>Read More</button>
             </div>
             
@@ -75,7 +79,7 @@
                 <!-- icon -->
                 <i class="uil uil-chart-growth"></i>
                 <h3>Responsive</h3>
-                <p>Lorem ipsum dolor sit agni.</p>
+                <p>I make the website responsive for use on all devices.</p>
                 <button>Read More</button>
             </div>
 
@@ -142,7 +146,7 @@
     <div class="skills-container">
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-brackets-curly"></i>
+            <i class="fa-brands fa-html5"></i>
             <h3>HTML-5</h3>
             <p>I have been working with HTML for 2 years </p>
             <button>Read More</button>
@@ -150,7 +154,7 @@
 
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-palette"></i>
+            <i class="fa-brands fa-css3-alt"></i>
             <h3>CSS-3</h3>
             <p>I work with CSS as well as its two frameworks</p>
             <button>Read More</button>
@@ -158,7 +162,7 @@
         
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-chart-growth"></i>
+            <i class="fa-brands fa-js"></i>
             <h3>JAVA SCRIPT</h3>
             <p>I am very proficient in java script, I have been working on it for 2 years</p>
             <button>Read More</button>
@@ -166,7 +170,7 @@
 
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-chart-growth"></i>
+            <i class="fa-brands fa-bootstrap"></i>
             <h3>BOOTSTRAP</h3>
             <p>I design with css row code as well as boot strap.</p>
             <button>Read More</button>
@@ -174,7 +178,7 @@
 
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-chart-growth"></i>
+            <i class="fa-solid fa-file-code"></i>
             <h3>TAILWIND</h3>
             <p>My favorite css framework is tailwind. I do most of the work with it</p>
             <button>Read More</button>
@@ -182,7 +186,7 @@
 
         <div class="skills-box">
             <!-- icon -->
-            <i class="uil uil-chart-growth"></i>
+            <i class="fa-brands fa-figma"></i>
             <h3>FIGMA</h3>
             <p> I use Figma as a designing tool</p>
             <button>Read More</button>
@@ -191,7 +195,41 @@
 
     </div>
 </section>
+<!-- Contact -->
+<section class="contact" id="contact"><br>
+    <h2 class="heading mid">Contact <span>Me</span></h2><br>
+     <div class="form-box">
+    <form action="#">
+        <div class="input-box field">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                <div class="error-text">Full Name can't be blank</div>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                <div class="error-text">Email can't be blank</div>
+            </div>
+        </div>
 
+        <div class="input-box field">
+            <div class="input-field">
+                <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                <div class="error-text">Phone Number can't be blank</div>
+            </div>
+            <div class="input-field">
+                <input type="text" class="item" placeholder="Subject" id="email" class="subject" autocomplete="off">
+                <div class="error-text">Subject can't be blank</div>
+            </div>
+        </div>
+      <div class="textarea-field field">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="item" itemid="message"></textarea>
+        <div class="error-text">Message can't be blank</div>
+      </div>
+
+      <button type="submit" class="f-btn">Send Message</button>
+    </form>
+</div>
+</section>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="main.js"></script>

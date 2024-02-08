@@ -202,7 +202,7 @@ button:hover{
     background-color: #323946;
     padding: 25px 10%; 
     margin: 20px 0px;
-    height: 135vh;
+    height: 140vh;
     
 } 
 .fortfolio-container{
@@ -276,7 +276,7 @@ button:hover{
 
 .skills{
     padding: 25px 10%;
-    height: 100vh;
+    height: 150vh;
     margin-top: 70px;
 }
 
@@ -317,4 +317,65 @@ button:hover{
 .skills-container .skills-box:hover{
     border-color: #0ef;
     transform: scale(1);
+}
+.tailwind{
+    color: #0ef;
+    height:100px;
+    width: 100px;
+}
+
+/* Contact */
+
+.contact{
+    min-height: 100vh;
+    background-color: #323946;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display:flex;
+    justify-content: space-between;
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: #0ef;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 12px 0;
+}
+.field .item::placeholder{
+    color: rgba(255,255,255, .3);
+}
+.input-box .input-field{
+    width: 48.5%;
+}
+.mid{
+    text-align: center;
+}
+form .textarea-field .item{
+    resize: none;
+}
+form .textarea-field .error-text{
+    margin-top: -10px;
+}
+.field .error-text{
+     font-size: 14.5px;
+     color: #d93025;
+     text-align: left;
+     margin: -5px 0 10px;
+}
+.f-btn{
+    margin-top: 0;
 }
