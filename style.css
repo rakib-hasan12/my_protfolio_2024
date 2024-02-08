@@ -190,6 +190,7 @@ button:hover{
 }
 .service-box p{
     margin: 1rem 0 1rem;
+    height: 55px;
 }
 .service-container .service-box:hover{
     border-color: #0ef;
@@ -311,6 +312,7 @@ button:hover{
 }
 .skills-box p{
     margin: 1rem 0 1rem;
+    height: 55px;
 }
 .skills-container .skills-box:hover{
     border-color: #0ef;
